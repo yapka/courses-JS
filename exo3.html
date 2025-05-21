@@ -1,0 +1,24 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript">
+
+  alert("Machine : Bienvenue chez nous.");
+  alert("Homme : Merci");
+  var nom = prompt("Machine : Veuillez saisir votre Nom ?");
+  var confirmation = confirm("Machine : Êtes-vous certain d'avoir saisi : " + nom + " ?");
+
+
+  if (confirmation) {
+    alert("Machine : Bonjour " + nom);
+  } else {
+    alert("Machine : Relancez le programme pour corriger votre nom.");
+  }
+</script>
+
+</body>
+</html>
